@@ -25,7 +25,7 @@ const Store = () => {
   };
 
   return (
-    <div ='shop' className='py-[30px] w-full ' style={{ backgroundColor: '#262126' }}>
+    <div name='shecho "# Mattari-Suits" >>' className='py-[30px] w-full ' style={{ backgroundColor: '#262126' }}>
       <div className='flex items-center -ml-[25px] flex-col py-[60px] justify-center'>
         <h1 className='text-[24px] text-white -mb-3'>Mattari Store</h1>
         <img className='w-[120px] -ml-[15px]  h-[74px]' src={storelogo} alt="Store Logo" />
