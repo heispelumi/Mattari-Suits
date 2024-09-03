@@ -1,0 +1,61 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url('https://fonts.googleapis.com/css2?family=Kiwi+Maru&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kiwi+Maru&family=Lobster&display=swap');
+
+h1 , p {
+  font-family: "Kiwi Maru", serif;
+  overflow-x: hidden;
+  font-weight: 400;
+  font-style: normal;
+}
+
+h2 {
+    font-family: "Lobster", sans-serif;
+    font-weight: 200;
+    font-style: normal;
+  }
+  
+
+.swiper-slide {
+  display: flex !important;
+  justify-content: center;
+  align-items: center;
+  transition: transform 0.3s ease;
+}
+
+.swiper-slide img {
+  transition: transform 0.3s ease;
+}
+
+
+
+.swiper-slide:not(.swiper-slide-active) img {
+  transform: scale(0.9); /* Zoom out images not in the center */
+}
+
+.bg-secondary {
+  background-color: #262126;
+}
+
+
+
+/* Custom Navigation Buttons */
+.swiper-button-prev,
+.swiper-button-next {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  z-index: 10;
+  cursor: pointer;
+}
+
+.swiper-button-prev {
+  left: 10px;
+}
+
+.swiper-button-next {
+  right: 10px;
+}
