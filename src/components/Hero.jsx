@@ -11,7 +11,7 @@ const Hero = () => {
       <div className='container px-4 sm:px-0  md:px-8 sm:pb-[250px] over-flow:hidden h-full w-full top-0 left-0 absolute'>
         <div className='w-full h-full flex px-3 flex-col justify-center items-start text-left text-white '>
        <div className='sm:w-[550px] w-[320px] h-[78px] '>
-          <p className='sm:text-[18px] text-[14px] -mb-4  text-[#F9DEA5] '>Mattari Suits</p>
+          <p className='sm:text-[18px] text-[14px] -mb-4  py-2 text-[#F9DEA5] '>Mattari Suits</p>
           <h1 className="sm:text-[64px] text-[32px] sm:font-bold ">Suit Up, <span className='text-[#F9DEA5]'>Level Up</span> </h1>
           <p className="sm:text-[18px] text-[14px] sm:w-[300px] sm:h-[78px] ">Unlock your full potential with our handcrafted suits, designed to make a lasting impression</p>
            {/* Hero Button */}

@@ -138,7 +138,7 @@ breakpoints={{
 
           <SwiperSlide>
           <div className="slide-content relative md:w-[334px] w-[248px] h-[490px] group">
-              <div className='absolute inset-0  w-[248px] h-[332px] translate-y-1/2 bg-transparent group-hover:bg-[#F9DEA5] transition-all duration-300 z-0'></div>
+              <div className='absolute inset-0  w-[248px] h-[332px] translate-y-1/2 bg-transparent  group-hover:bg-[#F9DEA5] transition-all duration-300 z-0'></div>
                <div className='w-[248px]  text-white  group-hover:text-black  h-[468px]'>    
                 <img className='relative w-[248px] h-[345px] object-cover z-10' src={store4} alt="Slide 4" />
               <div className='absolute bottom-0  left-0 text-center     justify-center items-center '>

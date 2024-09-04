@@ -51,7 +51,7 @@ const Offers = () => {
   <div className='flex flex-col items-center'>
     <img className='block w-[106px] h-[90px]' src={heroimage} alt="" />
     <div className='text-[66px] flex  text-primary  flex-col items-center w-[full] h-[full] mt-4'>
-      <p className='leading-tight'>Mattari</p>
+      <p className='leading-none'>Mattari</p>
       <p className='leading-tight' >Suits</p>
     </div>
     <div className='mt-3 text-primary text-[15px]'>
@@ -62,11 +62,11 @@ const Offers = () => {
  
      {/* Newsletter */}
      
-    <div className='h-[300px] md:h-[500px] flex   px-4 bg-secondary w-full'>
+    <div className='h-[300px] md:h-[500px] flex pb-[100px] md:pb-0   px-4 bg-secondary w-full'>
           <div className=' items-center justify-center w-full h-full  md:px-0   grid grid-cols-1 sm:grid-cols-2 lg-grid-cols-2'>
               <div className='flex flex-col  items-center'>
                 <div className='md:px-[80px] '>
-                <h1 className='md:w-[559px] w-[250px] md:h-full md:text-[43px] text-primary '>
+                <h1 className='md:w-[559px] w-[full] md:h-full md:text-[43px] text-primary '>
                     Subscribe for daily updates 
                 </h1>
                 <p className='md:text-[20px] text-[12px] md:pt-3 text-white w-[260px] py-3 md:py-0 md:w-[510px] md:h-[87px]'>Stay ahead of the curve with exclusive updates, promotions, and style tips from Mattar</p>
@@ -74,8 +74,8 @@ const Offers = () => {
 
             <div>
             </div>
-              <div className='flex px-6 items-center absolute pt-[100px] md:pt-0 md:right-12'>
-                <h1> <input className='md:w-[443px] w-[180px] p-3 md:p-8' type="text" placeholder='Enter email'  /><span className='bg-primary p-3 md:p-8 w-[30px] md:w-[164px]'> <button className='md:text-[18px] text-[12px]'>Subscribe</button>  </span></h1>
+              <div className='flex px-6 items-center absolute  py-[120px] md:pt-0 md:right-12'>
+                <h1> <input className='md:w-[443px] border-none w-[180px] p-3 md:p-8' type="text" placeholder='Enter email'  /><span className='bg-primary p-3 md:p-8 w-[30px] md:w-[164px]'> <button className='md:text-[18px] text-[12px]'>Subscribe</button>  </span></h1>
            
               </div>
               </div>
